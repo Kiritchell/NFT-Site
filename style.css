@@ -34,10 +34,20 @@ section{
 padding:35px 0px;
 }
 
+.section-2{
+background-color:#7f5af0;
+
+}
+
+.container{
+  width:650px;
+  margin:0 auto;
+}
+
 .main-title{
 transform:rotate(90deg);
 opacity:.7;
-position:absolute;
+position:fixed;
 right:-45px;
 bottom:55px;
 font-size:1.5em;
@@ -45,8 +55,9 @@ font-family: 'neoclassical', serif;
 }
 
 a{
-  text-decoration: none;
-color:#7f5af0;}
+  text-decoration: underline;
+  color:inherit;
+}
 
 a:hover{
 
@@ -97,6 +108,12 @@ font-weight: 300;}
 .sneaker-image{
 width:100%;
 }
+
+.sec-images{
+  width:300px;
+  height:auto;
+}
+
 /* Buttons */
 
 .button{
