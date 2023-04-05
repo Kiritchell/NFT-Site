@@ -30,6 +30,14 @@ padding:35px 0px;
 border-radius:5px;;
 }
 
+footer{
+  color:#16161a;
+  font-weight:600;
+  align-items: center;
+  height:125px;
+  background-color:white;
+}
+
 section{
 padding:35px 0px;
 }
@@ -39,11 +47,17 @@ background-color:#7f5af0;
 
 }
 
+.section-2 a{
+color:black;
+}
+
 .container{
   width:650px;
   margin:0 auto;
 }
-
+.main-title::cue-region{
+  color:black;
+}
 .main-title{
 transform:rotate(90deg);
 opacity:.7;
@@ -110,6 +124,8 @@ width:100%;
 }
 
 .sec-images{
+  border-radius:5%;
+  padding:5px;
   width:300px;
   height:auto;
 }
